@@ -1,0 +1,307 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d7f7ff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  background-color: #fff;
+  width: 500px;
+  padding: 25px;
+  margin: 25px auto 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: steelblue 3px solid;
+}
+
+.wrapper h2 {
+  background-color: #fcfcfc;
+  color: steelblue;
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 8px;
+  text-align: center;
+  border: 1px dashed steelblue;
+}
+
+.wrapper h4{
+  padding-bottom: 5px;
+  color: steelblue;
+}
+
+.input_group{
+  margin-bottom: 8px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
+}
+
+.input_box {
+  width: 100%;
+  margin-right: 12px;
+  position: relative;
+}
+
+.input_box:last-child{
+  margin-right: 0;
+}
+
+.input_box .name {
+  padding: 14px 10px 14px 50px;
+  width: 100%;
+  background-color: #fcfcfc;
+  border: 1px solid #0003;
+  outline: none;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  border-radius: 3px;
+  color: #333;
+}
+
+/* .input_box .name:focus, .dob:focus {
+  -webkit-box-shadow: 0 0 2px 1px #21cdd3;
+  -moz-box-shadow: 0 0 2px 1px #21cdd3;
+  box-shadow: 0 0 2px 1px #21cdd3;
+  border: 1px solid #21cdd3;
+} */
+
+/* .input_box .icon{ 
+
+width: 48px ;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 0px;
+bottom: 0px;
+top: 0px;
+color: #333;
+background-color: #f1f1f1;
+border-radius: 2x 0 0 2px;
+transition: 0.3s;
+font-size: 20px;
+pointer-events: none;
+border: 1px solid #00000003;
+border-right: nnone;    
+} */
+
+/* .name:focus+.icon {
+  background-color: #21cdd3;
+  color: #fff;
+  border: 1px solid #21cdd3;
+  transition: 1s;
+} */
+.box0{
+background-color: #fff;
+  width: 500px;
+  padding: 25px;
+  margin: 25px auto 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: steelblue 3px solid;
+}
+
+.box2{
+background-color: #fff;
+  width: 500px;
+  padding: 25px;
+  margin: 25px auto 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: steelblue 3px solid;
+}
+
+.box3{
+background-color: #fff;
+  width: 500px;
+  padding: 25px;
+  margin: 25px auto 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: steelblue 3px solid;
+}
+.dob {
+  width: 30%;
+  padding: 14px;
+  text-align: center;
+  background-color: #fcfcfc;
+  transition: 0.3s;
+  outline: none;
+  border: 1px solid #c0bfbf;
+  border-radius: 3px;
+}
+
+.box0 h4{
+font-size: larger;
+}
+.box0 h5{
+font-size: large;
+}
+h4{
+color: steelblue;
+}
+
+.book1
+{
+padding: 10px;
+height: 180px;
+width: 180px;
+align-self: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.book2
+{
+padding: 10px;
+height: 180px;
+width: 180px;
+align-self: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.radio {
+  display: none;
+}
+
+.input_box label {
+
+  width: 50%;
+  padding: 13px;
+  background-color: #fcfcfc;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  border: 1px solid #c0bfbf;
+}
+
+/* .input_box label:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+} */
+
+.radio:checked+label {
+  background-color: steelblue;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.input_box button {
+  width: 100%;
+  background-color: steelblue;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-right: 4px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+.input_box button:hover {
+  cursor: pointer;
+  background-color: #05b1a3;
+}
+
+footer {
+  padding: 15px 30px;
+  background-color: steelblue;
+}
+
+footer p {
+  text-align: center;
+  font-size: 85%;
+  color: white;
+}
+
+#main-nav a {
+  color: #f6f7f8;
+  background: steelblue;
+  height: 44px;
+  font-family: lato;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+#main-nav a:hover {
+  background: #305753;
+}
+
+#main-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+#main-nav li {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#main-nav li:hover .submenu > li {
+  display: block;
+  flex-direction: column;
+  top: 0px;
+}
+
+.submenu li {
+  display: none;
+  position: absolute;
+  top: 0px;
+}
+
+.submenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+}
+
+.submenu li {
+  position: relative;
+}
+
+.arrow {
+  margin-left: 8px;
+  color: #eee;
+  font-size: 12px;
+}
+
+#musklogo{
+  order: 3;
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(210, 247, 179), rgb(25, 25, 25));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  align-self: center;
+  margin-left: 40px;
+  font-family: fantasy;
+}
+
+#musketeersLogo{
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+}
+
+#logo{
+  height: 10px;
+  width: 10px;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inconsolata&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Roboto+Serif:ital,wght@0,100;0,300;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="./css/style_quiz.css" />
+    <title>HTML Quiz</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="nav">
+        <div class="nav-container">
+          <button><a href="../Frank/index_home.html">Home</a></button>
+          <button><a href="">Article</a></button>
+          <button><a href="./index_quiz.html">HTML Quiz</a></button>
+          <button>
+            <a href="../Amrendra/quiz_amrendra.html">Java Quiz</a>
+          </button>
+          <button><a href="./index_store.html">Bookstore</a></button>
+          <button><a href="">About Us</a></button>
+          <button><a href="../Frank/index_sign.html">Sign Up</a></button>
+          <button><a href="../Amrendra/contactus.html">Contact Us</a></button>
+        </div>
+      </nav>
+
+      <img class="logo" src="./images/logo.png" alt="logo" />
+    </header>
+
+    <main>
+      <h1 id="h1">HTML Quiz</h1>
+
+      <div id="score"></div>
+      <ol>
+        <li id="q1">
+          <h2>HTML stands for:</h2>
+          <input type="radio" id="q1o1" name="question1" value="q1o1" />
+          <label for="q1o1">HighText Machine Language</label><br />
+          <input type="radio" id="q1o2" name="question1" value="q1o2" />
+          <label for="q1o2">HyperText and links Markup Language</label><br />
+          <input type="radio" id="q1o3" name="question1" value="q1o3" />
+          <label for="q1o3">HyperText Markup Language</label><br />
+          <input type="radio" id="q1o4" name="question1" value="q1o4" />
+          <label for="q1o4">None of these</label>
+        </li>
+
+        <li id="q2">
+          <h2>
+            Which of the following element is responsible for making the text
+            bold in HTML?
+          </h2>
+          <input type="radio" id="q2o1" name="question2" value="q2o1" />
+          <label for="q2o1"> &lt;pre&gt;</label><br />
+          <input type="radio" id="q2o2" name="question2" value="q2o2" />
+          <label for="q2o2">&lt;a&gt;</label><br />
+          <input type="radio" id="q2o3" name="question2" value="q2o3" />
+          <label for="q2o3">&lt;b&gt;</label><br />
+          <input type="radio" id="q2o4" name="question2" value="q2o4" />
+          <label for="q2o4">&lt;br&gt;</label>
+        </li>
+
+        <li id="q3">
+          <h2>How to insert a background image in HTML?</h2>
+          <input type="radio" id="q3o1" name="question3" value="q3o1" />
+          <label for="q3o1"> &lt;body background = "img.png"&gt;</label><br />
+          <input type="radio" id="q3o2" name="question3" value="q3o2" />
+          <label for="q3o2">&lt;img background = "img.png"&gt;</label><br />
+          <input type="radio" id="q3o3" name="question3" value="q3o3" />
+          <label for="q3o3">&lt;bg-image = "img.png"&gt;</label><br />
+          <input type="radio" id="q3o4" name="question3" value="q3o4" />
+          <label for="q3o4">None of the above</label>
+        </li>
+
+        <li id="q4">
+          <h2>The tags in HTML are:</h2>
+          <input type="radio" id="q4o1" name="question4" value="q4o1" />
+          <label for="q4o1">case-sensitive</label><br />
+          <input type="radio" id="q4o2" name="question4" value="q4o2" />
+          <label for="q4o2">in upper case</label><br />
+          <input type="radio" id="q4o3" name="question4" value="q4o3" />
+          <label for="q4o3">not case sensitive</label><br />
+          <input type="radio" id="q4o4" name="question4" value="q4o4" />
+          <label for="q4o4">in lowercase</label>
+        </li>
+
+        <li id="q5">
+          <h2>Who is making the Web standards?</h2>
+          <input type="radio" id="q5o1" name="question5" value="q5o1" />
+          <label for="q5o1">The World Wide Web Consortium</label><br />
+          <input type="radio" id="q5o2" name="question5" value="q5o2" />
+          <label for="q5o2">Mozilla</label><br />
+          <input type="radio" id="q5o3" name="question5" value="q5o3" />
+          <label for="q5o3">Microsoft</label><br />
+          <input type="radio" id="q5o4" name="question5" value="q5o4" />
+          <label for="q5o4">Google</label>
+        </li>
+
+        <li id="q6">
+          <h2>Choose the correct HTML element to define emphasized text:</h2>
+          <input type="radio" id="q6o1" name="question6" value="q6o1" />
+          <label for="q6o1">&lt;i&gt;</label><br />
+          <input type="radio" id="q6o2" name="question6" value="q6o2" />
+          <label for="q6o2">&lt;italic&gt;</label><br />
+          <input type="radio" id="q6o3" name="question6" value="q6o3" />
+          <label for="q6o3">&lt;b&gt;</label><br />
+          <input type="radio" id="q6o4" name="question6" value="q6o4" />
+          <label for="q6o4">&lt;em&gt;</label>
+        </li>
+
+        <li id="q7">
+          <h2>Which character is used to indicate an end tag?</h2>
+          <input type="radio" id="q7o1" name="question7" value="q7o1" />
+          <label for="q7o1">/</label><br />
+          <input type="radio" id="q7o2" name="question7" value="q7o2" />
+          <label for="q7o2">^</label><br />
+          <input type="radio" id="q7o3" name="question7" value="q7o3" />
+          <label for="q7o3">*</label><br />
+          <input type="radio" id="q7o4" name="question7" value="q7o4" />
+          <label for="q7o4">&lt;</label>
+        </li>
+
+        <li id="q8">
+          <h2>How can you open a link in a new tab/browser window?</h2>
+          <input type="radio" id="q8o1" name="question8" value="q8o1" />
+          <label for="q8o1"> &lt;a href="url" new&gt;</label><br />
+          <input type="radio" id="q8o2" name="question8" value="q8o2" />
+          <label for="q8o2"> &lt;a href="url" target="_blank"&gt;</label><br />
+          <input type="radio" id="q8o3" name="question8" value="q8o3" />
+          <label for="q8o3"> &lt;a href="url" target="new"&gt;</label><br />
+          <input type="radio" id="q8o4" name="question8" value="q8o4" />
+          <label for="q8o4"> &lt;a href="url" target="blank"&gt;</label>
+        </li>
+
+        <li id="q9">
+          <h2>
+            Inline elements are normally displayed without starting a new line.
+          </h2>
+          <input type="radio" id="q9o1" name="question9" value="q9o1" />
+          <label for="q9o1">True</label><br />
+          <input type="radio" id="q9o2" name="question9" value="q9o2" />
+          <label for="q9o2">False</label>
+        </li>
+
+        <li id="q10">
+          <h2>How can you make a numbered list?</h2>
+          <input type="radio" id="q10o1" name="question10" value="q10o1" />
+          <label for="q10o1">&lt;list&gt;</label><br />
+          <input type="radio" id="q10o2" name="question10" value="q10o2" />
+          <label for="q10o2">&lt;ul&gt;</label><br />
+          <input type="radio" id="q10o3" name="question10" value="q10o3" />
+          <label for="q10o3">&lt;ol&gt;</label><br />
+          <input type="radio" id="q10o4" name="question10" value="q10o4" />
+          <label for="q10o4">&lt;dl&gt;</label>
+        </li>
+      </ol>
+      <a href="#h1"><input id="submit" type="submit" value="Submit" /></a>
+      <a href=""><input id="refresh" type="button" value="Refresh" /></a>
+    </main>
+    <footer>
+      <nav class="endnav">© 2022 Musketeers, LLC,</nav>
+    </footer>
+
+    <script src="./js/app_quiz.js"></script>
+  </body>
+</html>

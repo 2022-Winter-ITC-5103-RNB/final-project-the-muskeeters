@@ -1,0 +1,429 @@
+#phone {
+  width: 80%;
+  height: 100%;
+  justify-self: end;
+  padding-bottom: 10%;
+  padding-top: 3%;
+  padding-right: 15%;
+  order: 3;
+}
+
+#phoneno {
+  width: 80%;
+}
+
+#about {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 450px auto;
+  /* background-image: url(/images/cool-background.png); */
+  background-image: linear-gradient(to bottom, white 0%, rgb(179, 197, 223));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 3%;
+}
+
+#heading {
+  justify-self: center;
+  align-self: center;
+}
+
+#heading1 {
+  color: rgb(3, 0, 0);
+  justify-self: center;
+  align-self: center;
+  font-family: cursive;
+  font-size: xx-large;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding-top: 25px;
+}
+
+#maincontent {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 650px auto;
+  margin-right: 60px;
+}
+
+#leftContent {
+  align-items: center;
+  padding-left: 90px;
+}
+
+#leftContent h2 {
+  font-family: fantasy;
+  font-size: XXX-large;
+}
+
+#leftContent h2 :hover {
+  animation-name: slideup;
+}
+
+#leftContent p {
+  font-size: larger;
+  font-style: oblique;
+  font-weight: 700;
+}
+
+.details {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.details h5 {
+  align-self: center;
+  padding-left: 5%;
+  font-size: 20px;
+}
+
+.details img {
+  transition: transform 0.7s ease-in-out;
+}
+
+.details img:hover {
+  transform: rotate(360deg);
+}
+
+#rightContent {
+  padding-left: 5%;
+  align-items: center;
+}
+
+form {
+  background-color: rgb(236, 244, 244);
+  padding: 2%;
+  margin-left: 15%;
+  border: solid 0.1rem slategrey;
+  border-radius: 25px;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+.lname {
+  margin-left: 44px;
+}
+
+textarea:focus,
+input:focus {
+  border-color: transparent !important;
+}
+
+button {
+  outline: none !important;
+  border: none;
+  background: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact1-form {
+  width: 490px;
+}
+
+.contact1-form-title {
+  display: block;
+  font-family: Montserrat-ExtraBold;
+  font-size: 24px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 44px;
+}
+
+input.input1 {
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px;
+  margin-right: 4px;
+  padding-right: 10px;
+}
+input.input1 + .shadow-input1 {
+  border-radius: 25px;
+}
+
+textarea.input1 {
+  min-height: 150px;
+  border-radius: 25px;
+  padding: 12px 30px;
+}
+textarea.input1 + .shadow-input1 {
+  border-radius: 25px;
+}
+
+.wrap-input1 {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.input1 {
+  display: block;
+  background: #e6e6e6;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+}
+
+.emailinput,
+.msginput {
+  width: 100%;
+}
+
+.container-contact1-form-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact1-form-btn {
+  min-width: 193px;
+  height: 50px;
+  border-radius: 25px;
+  background: steelblue;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  transition: all 0.4s;
+}
+
+.contact1-form-btn:hover {
+  background: #333333;
+}
+
+.comm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control small {
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.alert {
+  color: white;
+  visibility: hidden;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+  background-color: #04aa6d;
+}
+
+/* Find us*/
+#findus {
+  display: flex;
+  margin-top: 3rem;
+  padding-bottom: 3%;
+}
+#findus img {
+  padding-left: 2%;
+  width: 40%;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+#mapContent {
+  padding-left: 5%;
+  padding-right: 4%;
+}
+
+#mapContent h4 {
+  text-align: justify;
+  padding-bottom: 3%;
+  font-size: 2rem;
+  font-style: oblique;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#mapContent p {
+  text-align: justify;
+  padding-bottom: 5%;
+  font-size: 1.1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+footer {
+  padding: 15px 30px;
+  background-color: steelblue;
+}
+
+footer p {
+  text-align: center;
+  font-size: 85%;
+  color: white;
+}
+
+#specificContact {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.specialistImg {
+  width: 30%;
+  margin-top: 1rem;
+}
+
+.specificContent {
+  background-image: linear-gradient(
+    to right,
+    rgb(170, 226, 236),
+    rgb(127, 109, 228)
+  );
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  width: 28%;
+  text-align: center;
+}
+
+figure img {
+  padding-left: 1rem;
+}
+
+.specificContent p {
+  font-size: larger;
+  padding-left: 1rem;
+}
+
+.specificContent p a {
+  font-size: large;
+}
+
+@media screen and (max-width: 812px) {
+  * {
+    margin: 10px;
+  }
+
+  body {
+    width: fit-content;
+    border: 3px solid steelblue;
+  }
+
+  .row {
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+  }
+
+  #rightContent {
+    padding-left: 5px;
+    position: 2;
+  }
+
+  #maincontent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(/images/cool-background.png); */
+    background-image: linear-gradient(
+      to bottom,
+      rgb(251, 211, 211) 0%,
+      rgb(179, 197, 223)
+    );
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 3%;
+  }
+
+  .input1 {
+    width: auto;
+    margin: 0;
+    padding: auto;
+  }
+
+  .emailinput {
+    margin-left: 10px;
+  }
+
+  .fname,
+  .lname,
+  .input1 {
+    width: 440px;
+    padding: 0;
+    padding-right: 30px;
+  }
+
+  .msginput {
+    width: 88%;
+  }
+
+  #hiddens {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  #hiddens li a {
+    text-decoration: none;
+  }
+
+  #findus {
+    flex-direction: column;
+  }
+
+  #mapContent {
+    order: 2;
+  }
+
+  #findus img {
+    width: 70%;
+    align-self: center;
+  }
+
+  #specificContact {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .specificContent {
+    width: 60%;
+    align-items: center;
+    margin-left: 6rem;
+  }
+  form {
+    margin-left: 0;
+  }
+
+  #phoneno {
+    width: 100%;
+  }
+}

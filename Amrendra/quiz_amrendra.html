@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/javapage.css" />
+    <link rel="stylesheet" href="./css/quiz.css" />
+  </head>
+  <body>
+    <!-- header Section -->
+    <header class="header">
+      <div class="container">
+        <div class="header-main">
+          <div class="logo">
+            <a href="#">The Muskeeters</a>
+          </div>
+          <div class="open-nav-menu">
+            <span></span>
+          </div>
+
+          <!-- navigation -->
+          <nav class="nav-menu">
+            <div class=".close-nav-menu">
+              <img class="close-img" src="./img/close.svg" alt="close" />
+            </div>
+
+            <ul class="menu">
+              <li class="menu-items">
+                <a href="../Frank/index_home.html">Home</a>
+              </li>
+              <li class="menu-items menu-item-has-children">
+                <a href="#" data-toggle="sub-menu"
+                  >Articles <i class="plus"></i
+                ></a>
+                <ul class="sub-menu">
+                  <li class="menu-items">
+                    <a href="#">Java</a>
+                  </li>
+                  <li class="menu-items">
+                    <a href="#">Web</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-items menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Quiz <i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-items">
+                    <a href="#">Java Quiz</a>
+                  </li>
+                  <li class="menu-items">
+                    <a href="../Nishant/index_quiz.html">Web Quiz</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-items">
+                <a href="../Nishant/index_store.html">Book Store</a>
+              </li>
+              <li class="menu-items">
+                <a href="#">About us</a>
+              </li>
+              <li class="menu-items">
+                <a href="../Frank/index_sign.html">Signup</a>
+              </li>
+
+              <li class="menu-items">
+                <a href="./contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <br /><br />
+      <h2 class="quiz-title">Test Your Knowledge</h2>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home-section"></section>
+
+    <!-- Game and Quiz -->
+    <section class="game-quiz-section">
+      <main>
+        <div class="quiz">
+          <div class="quiz-header">
+            <h3 class="wordJumble">Game -1: word Jumble</h3>
+            <p id="game1Info">
+              The game will the test the basic knowlwge of Java.
+            </p>
+            <div class="start-button">
+              <button class="Start-game-but">Start Game</button>
+            </div>
+          </div>
+          <div class="quiz-content">
+            <div class="score-board"></div>
+            <div class="quiz-section">
+              <div class="question-area">
+                <h3 class="question"></h3>
+                <h2 class="result"></h2>
+              </div>
+              <div class="answer">
+                <div>
+                  <h2 id="swords"></h2>
+                </div>
+                <input class="user-input" type="text" />
+                <div id="button2">
+                  <button class="next-question">Next Word</button>
+                  <button class="reset-game-but">Reset Game</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="game">
+          <div class="game-header">
+            <h3 class="guessNumber">Game -2: Guess The Number</h3>
+            <div class="start-button">
+              <button class="Start-game2-but">Start Game</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <footer>
+      <p>&copy 2022 Musketeers</p>
+    </footer>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/quiz.js"></script>
+  </body>
+</html>

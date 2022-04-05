@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
+
+body {
+  background-color: aliceblue;
+}
+
+h2 {
+  color: white;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 60px;
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.game {
+  padding-left: 35vw;
+  margin-top: 0;
+}
+
+.quiz {
+  background-image: url("../img/pexels-pixabay-356079.jpg");
+  margin-top: 2vw;
+}
+
+.quiz-content {
+  margin-bottom: 5vw;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 5vw;
+}
+
+.quiz-section {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.swords {
+  color: black;
+}
+
+.Start-button {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#button2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Start-game2-but {
+  margin-left: 7rem;
+}
+
+.Start-game2-but,
+.next-question,
+.reset-game-but,
+.Start-game-but {
+  margin-top: 1rem;
+  width: 10vw;
+  height: 3vw;
+  background-color: lightsteelblue;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+.Start-game2-but:hover,
+.next-question :hover,
+.reset-game-but:hover,
+.Start-game-but:hover {
+  background-color: darkgray;
+}
+
+.reset-game-but {
+  visibility: hidden;
+}
+
+.score-board {
+  display: none;
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: steelblue;
+  font-size: 4rem;
+  background-color: antiquewhite;
+}
+
+.next-question {
+  margin-bottom: 5px;
+  display: none;
+  margin-top: 1rem;
+  color: rgb(4, 58, 58);
+  font-size: larger;
+}
+
+.question {
+  margin-right: 0;
+  padding-right: 0;
+  margin-top: 5vw;
+  display: none;
+  text-align: center;
+  width: 80%;
+  margin-right: 0px;
+  color: whitesmoke;
+}
+
+.guessNumber {
+  color: darkcyan;
+  font-size: xx-large;
+}
+
+.wordJumble,
+#game1Info {
+  color: wheat;
+  font-size: xx-large;
+}
+.user-input {
+  display: flex;
+  display: none;
+  margin-top: 2rem;
+  font-size: 2rem;
+  border: 1px solid steelblue;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+
+.question-area {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+#swords {
+  align-items: center;
+  text-align: center;
+}
+
+#scrumbbled-words {
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+
+/* styling for game */
+.game {
+  background-image: url("/img/game.jpeg");
+  height: 15rem;
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+footer {
+  padding: 15px 30px;
+  background-color: steelblue;
+}
+
+/* Responsive */
+@media (max-width: 880px) {
+  h2 {
+    font-size: 50px;
+  }
+
+  .quiz-section {
+    flex-direction: column;
+  }
+  .score-board {
+    width: 50rem;
+    display: none;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: steelblue;
+    font-size: 4rem;
+    background-color: antiquewhite;
+  }
+
+  .user-input {
+    margin-left: 12rem;
+    background-color: white;
+  }
+
+  .Start-game-but,
+  .Start-game2-but,
+  .reset-game-but,
+  .next-question {
+    width: 8rem;
+    height: 3rem;
+    font-size: large;
+  }
+}
+
+footer p {
+  text-align: center;
+}

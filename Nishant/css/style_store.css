@@ -1,0 +1,229 @@
+body {
+  background-color: #f4f1ec;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav {
+  background-color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container button {
+  color: #f4f1ec;
+  text-decoration: none;
+  background-color: black;
+  border: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+}
+
+button > a {
+  padding: 1rem;
+}
+
+.nav-container a:hover,
+.nav-container button:hover {
+  color: #ff7096;
+  background-color: #f4f1ec;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: #f4f1ec;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  height: 50%;
+  padding: -20rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "Roboto Serif", sans-serif;
+  padding-top: 2rem;
+}
+
+h2 a {
+  color: black;
+}
+
+section > div > div > a {
+  color: #f4f1ec;
+  background-color: black;
+  padding: 0rem;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  height: 1rem;
+}
+
+p {
+  width: 30rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.endnav {
+  margin-top: 3rem;
+  padding: 0.5em;
+  text-align: center;
+  background-color: black;
+  color: #f4f1ec;
+  font-family: "Dancing Script", cursive;
+}
+
+.first {
+  height: 15rem;
+}
+
+section {
+  display: flex;
+  background-color: #ebe2d5;
+  justify-content: space-between;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+section div {
+  width: 37rem;
+  margin-left: 1rem;
+  padding-left: 1.5 rem;
+}
+
+section img {
+  padding: 1rem 1rem;
+  height: 272px;
+  /* width: 217px;     */
+}
+
+section div div {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+h3 {
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.cart {
+  height: 2.5rem;
+}
+
+.caart {
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  width: 10rem;
+}
+
+.caart a:hover {
+  background-color: black;
+}
+
+section > div > div > a {
+  color: #f4f1ec;
+  background-color: black;
+  padding: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+}
+
+#total-items {
+  color: #ff7096;
+  font-style: italic;
+  font-weight: 900;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 813px) {
+  body {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .nav-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section div {
+    width: auto;
+  }
+
+  main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+  }
+
+  .first {
+    height: 452px;
+    width: 312px;
+  }
+
+  .logo {
+    order: -1;
+  }
+
+  .order {
+    order: -1;
+  }
+
+  #nav {
+    order: 0;
+  }
+
+  .topic {
+    font-size: 0.75rem;
+    justify-content: center;
+  }
+
+  .tag {
+    display: none;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #section-titles {
+    margin-left: 0%;
+  }
+}

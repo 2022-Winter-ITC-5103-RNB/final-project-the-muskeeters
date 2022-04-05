@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="./css/CPage_styles.css">
+</head>
+<body>
+    <header>
+        <img id="musketeersLogo" src="./Images_yash/Musketeers-logos_black.png.png" alt="Musketeers Logo">
+        <h1 id="musklogo">The Musketeers</h1>
+    </header>
+    <nav id="main-nav">
+        <ul>
+            <li>
+                <a href="../Frank/index_home.html">Home</a>
+            </li>
+            <li>
+                <a href="#">Article
+                    <span class="arrow">&#x25BC;</span>
+                </a>
+                <ul class="submenu">
+                    <li>
+                        <a href="#">Java</a>
+                    </li>
+                    <li>
+                        <a href="#">HTML</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Quiz
+                    <span class="arrow">&#x25BC;</span>
+                </a>
+                <ul class="submenu">
+                    <li>
+                        <a href="../Amrendra/quiz_amrendra.html">Java Quiz</a>
+                    </li>
+                    <li>
+                        <a href="../Nishant/index_quiz.html">Web Quiz</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="../Nishant/index_store.html">Book Store</a>
+
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li><a href="../Frank/index_sign.html">Sign Up</a></li>
+            <li><a href="../Amrendra/contactus.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="box0">
+        <h4>Items in Cart</h4>
+        <img src="./Images_yash/book1.jpg" alt="Atomic Habits" class="book1">
+        <br>
+        <h5>Atomic Habits</h5>
+        <p>Price: $17.85</p>
+        <label for="quantity">Quantity:</label>
+        <select onchange="window.location.href = this.value">
+            <option value="#" selected="selected">1</option>
+            <option value="#">2</option>
+            <!--<option disabled>2</option>-->
+            <option value="#">3</option>
+            <option value="#">4</option>
+            <option value="#">5</option>
+            <option value="#">6</option>
+            <option value="#">7</option>
+            <option value="#">8</option>
+            <option value="#">9</option>
+          </select>
+          <img src="./Images_yash/book2.jpg" alt="Atomic Habits" class="book1">
+          <br>
+          <h5>The Alchemist</h5>
+          <p>Price: $23.65</p>
+          <label for="quantity">Quantity:</label>
+          <select onchange="window.location.href = this.value">
+              <option value="#" selected="selected">1</option>
+              <option value="#">2</option>
+              <!--<option disabled>2</option>-->
+              <option value="#">3</option>
+              <option value="#">4</option>
+              <option value="#">5</option>
+              <option value="#">6</option>
+              <option value="#">7</option>
+              <option value="#">8</option>
+              <option value="#">9</option>
+            </select>
+    </div>
+
+    <!-- Box1 -->
+    <div class="box1">
+    <div class="wrapper">
+
+        <h2>Payment Form</h2>
+        <form action="" method="POST">
+        <!-- Account Information -->
+        <h4>Account</h4>
+        <div class="input_group">
+            <div class="input_box">
+                <input type="text" placeholder="Full Name" required class="name">
+                <!-- <img src="/Checkout Page/Images/user.png" alt="User Icon" width="15px" height="15px"> -->
+            </div>
+            
+            <div class="input_box">
+                <input type="text" placeholder="Name on Card" required class="name">
+                <!-- <img src="/Checkout Page/Images/user.png" alt="User Icon" width="15px" height="15px"> -->
+            </div>
+        </div>
+
+        <div class="input_group">
+            <div class="input_box">
+                <input type="email" placeholder="Email Address" required class="name">
+                <!-- <img src="/Checkout Page/Images/email.png" alt="User Icon" width="15px" height="15px" > -->
+            </div>
+        </div>
+
+        <div class="input_group">
+            <div class="input_box">
+                <input type="email" placeholder="Address" required class="name">
+                <!-- <img src="/Checkout Page/Images/location.png" alt="User Icon" width="15px" height="15px" > -->
+            </div>
+        </div>
+        
+        <div class="input_group">
+            <div class="input_box">
+                <input type="email" placeholder="City" required class="name">
+                <!-- <img src="/Checkout Page/Images/cityscape.png" alt="User Icon" width="15px" height="15px"> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Box2 -->
+
+    <div class="box2">
+        <!-- Date of Birth & Gender -->
+
+        <div class="input_group">
+            <div class="input_box">
+                <h4>Date of Birth</h4>
+                <input type="text" placeholder="DD" required class="dob">
+                <input type="text" placeholder="MM" required class="dob">
+                <input type="text" placeholder="YYYY" required class="dob">
+            </div>
+        </div>
+        <div class="input_group">
+            
+            <div class="gender">
+                <h4>Gender</h4>
+                <input type="radio" placeholder="gender" required id="b1" checked>
+                <label for="b1">Male</label>
+                <input type="radio" placeholder="gender" required id="b2">
+                <label for="b2">Female</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Box3 -->
+        
+    <div class="box3">
+        
+        <!-- Payment Details -->
+            <div class="input_group">
+                <div class="input_box">
+                    <h4>Payment Details</h4>
+                    <input type="radio" name="pay" class="radio" id="bc1" checked>
+                    <label for="bc1"> 
+                        <img src="./Images_yash/visa.png" alt="User Icon" width="20px" height="20px">
+                        Credit Card</label>
+                        <input type="radio" name="pay" class="radio" id="bc2" checked>
+                        <label for="bc2"> <img src="./Images_yash/money.png" alt="User Icon" width="20px" height="20px">
+                            Paypal</label>
+                        </div>
+                    </div>
+                    
+                    <div class="input_group">
+            <div class="input_box">
+                <input type="tel" class="name" placeholder="Card Number" required>
+                <!-- <img src="/Checkout Page/Images/credit-card.png" alt="User Icon" width="20px" height="20px"> -->
+            </div>
+        </div>
+
+        <div class="input_group">
+            <div class="input_box">
+                <input type="tel" class="name" placeholder="Card CVC" required>
+                <!-- <img src="/Checkout Page/Images/cvc.png" alt="User Icon" width="20px" height="20px"> -->
+            </div>
+        </div>
+        
+        <div class="input_group">
+            <div class="input_box">
+               <input type="number" class="name" placeholder="Expiry Month" required>
+               <!-- <img src="/Checkout Page/Images/calendar.png" alt="User Icon" width="20px" height="20px"> -->
+            </div>
+        </div>
+        
+        <div class="input_group">
+            <div class="input_box">
+                <input type="number" class="name" placeholder="Expiry Year" required>
+                <!-- <img src="/Checkout Page/Images/calendar.png" alt="User Icon" width="20px" height="20px"> -->
+            </div>
+        </div>
+        
+        <div class="input_group">
+            <div class="input_box">
+                <input type="number" class="name" placeholder="Enter Amount" required>
+                <!-- <img src="/Checkout Page/Images/dollar.png" alt="User Icon" width="20px" height="20px"> -->
+            </div>
+        </div>
+        
+        <div class="input_group">
+            <div class="input_box">
+                <button type="submit">Pay Now</button>
+            </div>
+        </div>
+    </div>
+    </form>
+</div>
+
+
+
+<footer>
+    <p> &copy 2022 Musketeers</p>
+</footer>
+</body>
+</html>
+
