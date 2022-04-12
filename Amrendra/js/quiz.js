@@ -190,7 +190,7 @@ function questionDesc() {
 
 game2Butn.addEventListener("click", (e) => {
   window.open(
-    "../GuessTheNumber.html",
+    "../Amrendra/GuessTheNumber.html",
     "popUpWindow",
     "height=1000,width=1000,left=100,top=100,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no, status=no"
   );

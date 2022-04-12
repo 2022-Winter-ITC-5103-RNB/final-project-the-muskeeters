@@ -1,4 +1,4 @@
-## Assignment Name: : Project Phase Two
+## Assignment Name: : Project Phase Three
 
 ## TeamMember:
 
@@ -28,6 +28,10 @@
 - [x] Created Contact Us Page
 - [x] Created Home page for the blog
 - [x] Created User Page
+- [x] Created Java Article Page for the blog
+- [x] Created HTML Article Page for the blog
+- [x] Created About Us Page
+- [x] Created Admin Page
 
 ## Leaning curve and challenges
 

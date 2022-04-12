@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="./css/Admin_styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="clock"></div>
+          <header class="header">
+            <div class="container">
+              <div class="header-main">
+                  <div class="logo">
+                    <a href="#">The Muskeeters</a>
+                  </div>
+                  <div class="open-nav-menu">
+                    <span></span>
+                  </div>
+        
+                  <!-- navigation -->
+                  <nav class="nav-menu">
+                    <div class=".close-nav-menu">
+                      <img class="close-img" src="./img/close.svg" alt="close" />
+                    </div>
+                    
+                    <ul class="menu">
+                      <li class="menu-items">
+                        <a href="../Frank/index_home.html">Home</a>
+                      </li>
+                      <li class="menu-items menu-item-has-children">
+                        <a href="#" data-toggle="sub-menu"
+                        >Articles <i class="plus"></i
+                        ></a>
+                        <ul class="sub-menu">
+                          <li class="menu-items">
+                            <a href="../Amrendra/javaArticle.html">Java</a>
+                          </li>
+                          <li class="menu-items">
+                            <a href="../Nishant/index_article.html">HTML</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-items menu-item-has-children">
+                        <a href="#" data-toggle="sub-menu">Quiz <i class="plus"></i></a>
+                        <ul class="sub-menu">
+                          <li class="menu-items">
+                            <a href="../Amrendra/quiz_amrendra.html">Java Quiz</a>
+                          </li>
+                          <li class="menu-items">
+                            <a href="../Nishant/index_quiz.html">Web Quiz</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-items">
+                        <a href="../Nishant/index_store.html">Book Store</a>
+                      </li>
+                      <li class="menu-items">
+                        <a href="../Frank/index_about.html">About us</a>
+                      </li>
+                      <li class="menu-items">
+                        <a href="../Amrendra/contactus.html">Contacts</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <br /><br />
+            </header> 
+<br>
+<br>
+    <div class="side-menu">
+        <img src="./Images_yash/administrator-256.gif" alt="admin" srcset="">
+        <div class="group-name">
+            <h1>Admin</h1>
+        </div>
+        <ul>
+            <li><img src="./Images_yash/icons8-edit-account-50.png" alt="" id="icon">&nbsp;  Profile</li>
+            <li><img src="./Images_yash/icons8-users-30.png" alt="" id="icon">&nbsp; View All Users</li>
+            <li><img src="./Images_yash/icons8-messages-50.png" alt="" id="icon">&nbsp; User Messages</li>
+            <li><img src="./Images_yash/icons8-billboard-50.png" alt="" id="icon">&nbsp; Blog Spots</li>
+            <li><img src="./Images_yash/icons8-box-64.png" alt="" id="icon">&nbsp; Manage Orders</li>
+            <li><img src="./Images_yash/icons8-block-64.png" alt="" id="icon">&nbsp; Block Users</li>
+            <li><img src="./Images_yash/icons8-play-games-64.png" alt="" id="icon">&nbsp; Manage Games</li>
+            <li><img src="./Images_yash/icons8-shutdown-80.png" alt="" id="icon">&nbsp; Logout</li>
+        </ul>
+    </div>
+   
+<br>
+<br>
+<main>
+<br>
+    <div id="MyClockDisplay" class="clock" onload="showTime()">
+    <h3>
+        Toronto Time
+    </h3>
+    </div>
+    <br>
+    <div id="clock">&nbsp; </div>
+    <br>
+        <h3>Book Sale Analysis</h3>
+        <br>
+        <img src="./Images_yash/t1-bar-charts-book-sales.webp" alt="" id="graph" >
+        <br>
+        <br>
+        <h3>Annual Revanue</h3>
+        <br>
+        <img src="./Images_yash/income statement annual.png" alt="" id="graph">
+        <br>
+        <br>
+        <h3>User Activity</h3>
+        <br>
+        <img src="./Images_yash/vs-prior.png" alt="" id="graph" >
+        <br>
+        <div class="content">
+<!-- table1 -->
+        <table id="myTable">
+            <h3>Users</h3>
+            <br>
+            <thead>
+                <tr height="60px">
+                    <th>User ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>john123</td>
+                    <td>John Smith</td>
+                    <td>johnsmith123@gmail.com</td>
+                    <td>9128374738</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>hello123</td>
+                    <td>Hello World</td>
+                    <td>helloworld123@gmail.com</td>
+                    <td>9128374739</td>
+                    <td>Canada</td>
+                </tr>
+                <tr>
+                    <td>jacob789</td>
+                    <td>Jacob Roy</td>
+                    <td>jacobroy789@gmail.com</td>
+                    <td>3426727681</td>
+                    <td>United Kingdom</td>
+                </tr>
+                <tr>
+                    <td>sardarsingh786</td>
+                    <td>Sardar Singh</td>
+                    <td>sardarsingh786@gmail.com</td>
+                    <td>7861234786</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>khan989</td>
+                    <td>Yusuf Khan</td>
+                    <td>yusufkhan989@gmail.com</td>
+                    <td>9895656989</td>
+                    <td>UAE</td>
+                </tr>
+            </tbody>
+        </table>
+<br>
+
+
+<!-- table2 -->
+        <table id="myTable">
+            <h3>Orders</h3>
+            <br>
+            <thead>
+                <tr height="60px">
+                    <th>Order ID</th>
+                    <th>Customer Name</th>
+                    <th>Order Date</th>
+                    <th>Amount</th>
+                    <th>Postal Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ORD-1234</td>
+                    <td>Johan Yeilds</td>
+                    <td>24-03-2021</td>
+                    <td>$121</td>
+                    <td>M613A@</td>
+                </tr>
+                <tr>
+                    <td>ORD-6578</td>
+                    <td>Silva Roy</td>
+                    <td>25-09-2021</td>
+                    <td>$367</td>
+                    <td>Z26T67</td>
+                </tr>
+                <tr>
+                    <td>ORD-8734</td>
+                    <td>Lily Rose</td>
+                    <td>07-09-2021</td>
+                    <td>$100</td>
+                    <td>UK1LN4</td>
+                </tr>
+                <tr>
+                    <td>ORD-2982</td>
+                    <td>Rajat Singh</td>
+                    <td>26-09-2020</td>
+                    <td>$560</td>
+                    <td>IN1NO1</td>
+                </tr>
+                <tr>
+                    <td>ORD-0009</td>
+                    <td>Imran Khan</td>
+                    <td>07-08-2021</td>
+                    <td>$78</td>
+                    <td>PK2BK1</td>
+                </tr>
+            </tbody>
+        </table>
+<br>
+<!-- table3 -->
+        <table id="myTable">
+            <h3>Books</h3>
+            <br>
+            <thead>
+                <tr height="60px">
+                    <th>ISBN</th>
+                    <th>Book Name</th>
+                    <th>Author Name</th>
+                    <th>Price</th>
+                    <th>Discount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7878-9898-123</td>
+                    <td>The Alchemist</td>
+                    <td>Paulo Coelho</td>
+                    <td>$120</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td>1234-5678-987</td>
+                    <td>Harry Potter</td>
+                    <td>J. K. Rowling</td>
+                    <td>$360</td>
+                    <td>27%</td>
+                </tr>
+                <tr>
+                    <td>6543-3456-789</td>
+                    <td>Elon Musk</td>
+                    <td>Ashlee Vance</td>
+                    <td>$567</td>
+                    <td>21%</td>
+                </tr>
+                <tr>
+                    <td>4598-9845-398</td>
+                    <td>The Secret</td>
+                    <td>Rhonda Byrne</td>
+                    <td>$329</td>
+                    <td>45%</td>
+                </tr>
+                <tr>
+                    <td>7869-8679-765</td>
+                    <td>Half Girlfriend</td>
+                    <td>Chetan Bhagat</td>
+                    <td>$479</td>
+                    <td>34%</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+    <!-- table4 -->
+    <table id="myTable">
+        <h3>Blocked Users</h3>
+        <br>
+        <thead>
+            <tr height="60px">
+                <th>Name</th>
+                <th>Reason</th>
+                <th>Date</th>
+                <th>Time Period</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hacker Shaun</td>
+                <td>Scripting</td>
+                <td>23-04-2021</td>
+                <td>Permanent Banned</td>
+            </tr>
+            <tr>
+                <td>Sia Rose</td>
+                <td>Multiple wrong Password</td>
+                <td>06-08-2021</td>
+                <td>Banned for 24 hr</td>
+            </tr>
+            <tr>
+                <td>Charles Xavier</td>
+                <td>No Activity</td>
+                <td>24-05-2021</td>
+                <td>Removed Account</td>
+            </tr>
+        </tbody>
+    </table>        
+    </div>
+    <br>
+    
+    
+    </main>
+  
+<footer>
+    <p> &copy 2022 Musketeers</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/Admin_yash.js"></script>
+</body>
+</html>

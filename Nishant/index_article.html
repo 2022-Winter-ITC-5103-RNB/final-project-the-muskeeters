@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inconsolata&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Roboto+Serif:ital,wght@0,100;0,300;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="./css/style_article.css" />
+    <title>HTML Into</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="nav">
+        <div class="nav-container">
+          <button><a href="../Frank/index_home.html">Home</a></button>
+          <button>
+            <a href="../Amrendra/javaArticle.html">Java Article</a>
+          </button>
+          <button><a href="#">HTML Article</a></button>
+          <button><a href="../Nishant/index_quiz.html">HTML Quiz</a></button>
+          <button>
+            <a href="../Amrendra/quiz_amrendra.html">Java Quiz</a>
+          </button>
+          <button><a href="./index_store.html">Bookstore</a></button>
+          <button><a href="../Frank/index_about.html">About Us</a></button>
+          <button><a href="../Amrendra/contactus.html">Contact Us</a></button>
+          <button><a href="../Frank/index_sign.html">Sign Up</a></button>
+        </div>
+      </nav>
+
+      <img class="logo" src="./images/logo.png" alt="logo" />
+    </header>
+
+    <main>
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a href="#">Index</a>
+            <ul class="dropdown">
+              <li><a href="#what">What?</a></li>
+              <li><a href="#element">Element?</a></li>
+              <li><a href="#skeleton">HTML Skeleton?</a></li>
+              <li><a href="#marking-text">Marking Text</a></li>
+              <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="section-titles">
+        <div class="date">
+          June
+          <div>2</div>
+        </div>
+        <div class="topic">
+          <div class="one">HTML Basics</div>
+        </div>
+        <div class="tag">
+          <div class="two">
+            <span>A post about </span
+            ><span class="marked"
+              ><a href="">HTML</a>,<a href="">Web Dev</a></span
+            >
+          </div>
+        </div>
+        <img src="./images/html.jpg" class="image-html" alt="" />
+
+        <article class="article">
+          <div class="title">
+            <h1>&#60;HTML&#62;</h1>
+            <h3><b>Start</b> Fresh</h3>
+          </div>
+          <h2 id="what">What is HTML?</h2>
+          <p>
+            HTML (HyperText Markup Language) is the code that is used to
+            structure a web page and its content. For example, content could be
+            structured within a set of paragraphs, a list of bulleted points, or
+            using images and data tables.
+          </p>
+
+          <h2 id="element">HTML Elements</h2>
+          <p>
+            HTML is a markup language that defines the structure of your
+            content. HTML consists of a series of elements, which you use to
+            enclose, or wrap, different parts of the content to make it appear a
+            certain way, or act a certain way. The enclosing tags can make a
+            word or image hyperlink to somewhere else, can italicize words, can
+            make the font bigger or smaller, and so on.
+          </p>
+
+          <h2 id="skeleton">HTML Skeleton</h2>
+
+          Every element consist of an Opening tag, closing tag and the content.
+          These are described below: <br />
+          <p class="article-2">
+            1)
+            <b>The opening tag:</b> This consists of the name of the element (in
+            this case, p), wrapped in opening and closing angle brackets. This
+            states where the element begins or starts to take effect — in this
+            case where the paragraph begins. <br />
+            <br />
+
+            2)
+            <b>The closing tag:</b> This is the same as the opening tag, except
+            that it includes a forward slash before the element name. This
+            states where the element ends — in this case where the paragraph
+            ends. Failing to add a closing tag is one of the standard beginner
+            errors and can lead to strange results. <br />
+            <br />
+            3)
+            <b>The content:</b> This is the content of the element, which in
+            this case, is just text. <br />
+            <br />
+          </p>
+          Elements can also have attributes that contain extra information about
+          the element that you don't want to appear in the actual content. Here,
+          class is the attribute name and editor-note is the attribute value.
+          The class attribute allows you to give the element a non-unique
+          identifier that can be used to target it (and any other elements with
+          the same class value) with style information and other things.
+
+          <h2 id="marking-text">What is Marking Text?</h2>
+          Marking up the text describes the structure, format, and layout of the
+          text we want to appear on a webpage. Following are the few examples:
+          <h4>Headings</h4>
+          <p>
+            &emsp;&emsp;Heading elements allow you to specify that certain parts
+            of your content are headings — or subheadings. In the same way that
+            a book has the main title, chapter titles, and subtitles, an HTML
+            document can too. HTML contains 6 heading levels,&#60;h1&#62;-
+            &#60;h6&#62;, although you'll commonly only use 3 to 4 at most.
+          </p>
+
+          <h4>Paragraphs</h4>
+          <p>
+            &emsp;&emsp;&#60;p&#62; elements are for containing paragraphs of
+            text; you'll use these frequently when marking up regular text
+            content.
+          </p>
+
+          <h4>Lists</h4>
+          <p>
+            &emsp;&emsp;A lot of the web's content is lists and HTML has special
+            elements for these. Marking up lists always consists of at least 2
+            elements. The most common list types are ordered and unordered
+            lists:
+          </p>
+
+          1)
+          <b>Unordered lists:</b> These are for lists where the order of the
+          items doesn't matter, such as a shopping list. These are wrapped in a
+          &#60;ul&#62; element. <br />
+          <br />
+
+          2)
+          <b>Ordered lists:</b> are for lists where the order of the items does
+          matter, such as a recipe. These are wrapped in an &#60;ol&#62;
+          element. <br />
+          <br />
+          <h2 id="conclusion">Conclusion</h2>
+          <p>
+            The above are shown tags are few drops in the HTML ocean which can
+            mark your content and let your browser know how you want the content
+            on your website to be displayed. For more information follow the
+            following mdn
+            <a
+              style="background-color: yellowgreen"
+              href="https://developer.mozilla.org/en-US/docs/Learn/HTML"
+              >link</a
+            >.
+          </p>
+        </article>
+        <section id="comment-area">
+          <h2 id="comments">Comments</h2>
+          <form>
+            <textarea id="textbox" name="comment" form="usrform"></textarea>
+            <br />
+            <input id="button" type="submit" />
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="endnav">© 2022 Musketeers, LLC,</nav>
+    </footer>
+
+    <script src="./js/app_article.js"></script>
+  </body>
+</html>

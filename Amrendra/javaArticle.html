@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/article_css.css" />
+    <link rel="stylesheet" href="./css/article.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-main">
+          <div class="logo">
+            <a href="#">The Muskeeters</a>
+          </div>
+          <div class="open-nav-menu">
+            <span></span>
+          </div>
+
+          <!-- navigation -->
+          <nav class="nav-menu">
+            <div class=".close-nav-menu">
+              <img class="close-img" src="./img/close.svg" alt="close" />
+            </div>
+
+            <ul class="menu">
+              <li class="menu-items">
+                <a href="../Frank/index_home.html">Home</a>
+              </li>
+              <li class="menu-items menu-item-has-children">
+                <a href="#" data-toggle="sub-menu"
+                  >Articles <i class="plus"></i
+                ></a>
+                <ul class="sub-menu">
+                  <li class="menu-items">
+                    <a href="./javaArticle.html">Java</a>
+                  </li>
+                  <li class="menu-items">
+                    <a href="../Nishant/index_article.html">HTML</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-items menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Quiz <i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-items">
+                    <a href="./quiz_amrendra.html">Java Quiz</a>
+                  </li>
+                  <li class="menu-items">
+                    <a href="../Nishant/index_quiz.html">Web Quiz</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-items">
+                <a href="../Nishant/index_store.html">Book Store</a>
+              </li>
+              <li class="menu-items">
+                <a href="../Frank/index_about.html">About us</a>
+              </li>
+              <li class="menu-items">
+                <a href="../Frank/index_sign.html">Signup</a>
+              </li>
+
+              <li class="menu-items">
+                <a href="./contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="imageSlider">
+        <ul id="slideWrap">
+          <li><img class="images" src="./img/JavaImage.jpeg" alt="" /></li>
+        </ul>
+      </div>
+      <div class="mainContent">
+        <aside>
+          <nav class="ext-nav">
+            <ul>
+              <li>
+                <a href="#"
+                  >Contents
+                  <span class="arrow">&#x25BC;</span>
+                </a>
+                <ul class="sub_menu2 sub">
+                  <li class="internalmenu">
+                    <a href="#AboutJava">What is Java</a>
+                  </li>
+                  <li class="internalmenu">
+                    <a href="#whereJava">Where Java is Used</a>
+                  </li>
+                  <li class="internalmenu">
+                    <a href="#JavaFeatures">Java Features</a>
+                  </li>
+                  <li class="internalmenu">
+                    <a href="#JavaVsStr">Java VS Structured Programming</a>
+                  </li>
+                  <li class="internalmenu">
+                    <a href="#Abstraction">Abstraction in Java</a>
+                  </li>
+                  <li class="internalmenu">
+                    <a href="#inheritance">Inheritance in Java</a>
+                  </li>
+                  <li class="internalmenu">
+                    <a href="#Polymorphism">Polymorphism in Java</a>
+                  </li>
+                  <li class="internalmenu">
+                    <a href="#inheritance">Java Interfaces</a>
+                  </li>
+                  <li class="internalmenu">
+                    <a href="#conclusion">Conclusion</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+        <article>
+          <section id="AboutJava">
+            <h4>What is Java</h4>
+            <p>
+              Java is a general-purpose, class-based, object-oriented
+              programming language designed for having lesser implementation
+              dependencies. It is a computing platform for application
+              development. Java is fast, secure, and reliable, therefore. It is
+              widely used for developing Java applications in laptops, data
+              centers, game consoles, scientific supercomputers, cell phones,
+              etc.
+            </p>
+            <p>
+              Java Platform is a collection of programs that help programmers to
+              develop and run Java programming applications efficiently. It
+              includes an execution engine, a compiler, and a set of libraries
+              in it. It is a set of computer software and specifications. James
+              Gosling developed the Java platform at Sun Microsystems, and the
+              Oracle Corporation later acquired it.
+            </p>
+          </section>
+          <section id="whereJava">
+            <h4 class="headings">Where Java is Used</h4>
+            <p>
+              Java can be used to build applications for a wide range of
+              platforms. Desktops, servers, mobile phones, tablets, Blu-ray
+              players, televisions, and web browsers all use Java, and
+              developers can write Java-based applications for any of these
+              platforms. Since Java adheres to WORA requirements, the same code
+              can be run on all the platforms having Java Runtime Environment
+              (JRE) without recompiling the code. Java is used to write
+              applications for different platforms that run JRE and supports
+              applications that run on a single device like a desktop or mobile
+              phone. Java can also be used to develop applications that work in
+              a distributed manner. That means the same application can be
+              distributed between servers or clients in a network and can be
+              executed synchronously. Java can also be used to write application
+              modules or applets as part of web pages.
+            </p>
+          </section>
+          <section id="JavaFeatures">
+            <h4 class="headings">Java Features</h4>
+            <p>
+                Its coding style is very clean and easy to understand. It removes complexity because it doesn’t use complex and difficult features of other languages like C and C++, which are as follows:
+                <ul>
+                    <li class="point">
+                       <p> Concept of Explicit Pointers</p>
+                    </li>
+                    <li class="point"><p>Storage classes</p></li>
+                    <li class="point"><p> Preprocessors and header files</p></li>
+                    <li class="point"><p>Multiple Inheritance </p></li>
+                    <li class="point"><p>Operator Overloading</p></li>
+                    <li class="point"><p>Goto Statements</p></li>
+                </ul>
+                <p>Apart from the removal of these confusing and ambiguous concepts, there is a provision of Automatic Garbage Collection, in which there is no need to remove the unreferenced objects explicitly.</p>
+            </p>
+          </section>
+          <section id="JavaVsStr">
+           
+          <section id="Abstraction">
+            <h4 class="headings">Abstraction in Java</h4>
+            <p>
+                Data Abstraction is the property by virtue of which only the essential details are displayed to the user. The trivial or the non-essentials units are not displayed to the user. Ex: A car is viewed as a car rather than its individual components.
+<br>
+Data Abstraction may also be defined as the process of identifying only the required characteristics of an object ignoring the irrelevant details. The properties and behaviours of an object differentiate it from other objects of similar type and also help in classifying/grouping the objects.
+<br>
+Consider a real-life example of a man driving a car. The man only knows that pressing the accelerators will increase the speed of a car or applying brakes will stop the car, but he does not know about how on pressing the accelerator the speed is actually increasing, he does not know about the inner mechanism of the car or the implementation of the accelerator, brakes, etc in the car. This is what abstraction is. 
+            </p>
+          </section>
+          <section id="inheritance">
+            <h4 class="headings">Inheritance in Java</h4>
+            <p>
+                Inheritance is an important pillar of OOP(Object-Oriented Programming). It is the mechanism in java by which one class is allowed to inherit the features(fields and methods) of another class. 
+                <h5>Important terminology: </h5>
+                <ul>
+                    <li><p> Super Class: The class whose features are inherited is known as superclass(or a base class or a parent class).</p></li>
+                    <li>
+                        <p>Sub Class: The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.</p>
+                    </li>
+                    <li>
+                        <p>Reusability: Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class. By doing this, we are reusing the fields and methods of the existing class.</p>
+                    </li>
+
+                </ul>
+            </p>
+          </section>
+          <section id="Polymorphism">
+            <h4 class="headings">Polymorphism in Java</h4>
+            <p>
+                The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form. 
+                <br>
+                <h5>Real-life Illustration:</h5>
+                <p>A person at the same time can have different characteristics. Like a man at the same time is a father, a husband, an employee. So the same person possesses different behavior in different situations. This is called polymorphism. 
+                    <br>
+                    Polymorphism is considered one of the important features of Object-Oriented Programming. Polymorphism allows us to perform a single action in different ways. In other words, polymorphism allows you to define one interface and have multiple implementations. The word “poly” means many and “morphs” means forms, So it means many forms.</p>
+            </p>
+          </section>
+          <section id="Interface">
+            <h4 class="headings">Java Interfaces</h4>
+            <p>
+                An Interface in Java programming language is defined as an abstract type used to specify the behavior of a class. An interface in Java is a blueprint of a class. A Java interface contains static constants and abstract methods.
+                <br>
+                The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not the method body. It is used to achieve abstraction and multiple inheritance in Java. In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body. Java Interface also represents the IS-A relationship.
+                <br>
+                Like a class, an interface can have methods and variables, but the methods declared in an interface are by default abstract (only method signature, no body). 
+            </p>
+          </section>
+          <section id="conclusion">
+            <h4 class="headings">To Conclude..</h4>
+            <p>
+                Java was one of the first mainstream languages to provide support for threading at the language level and is now one of the first languages to standardize high-level threading utilities and APIs as well. At this point, we’ve come to the end of our discussion of threads in Java and also, in a way, to the end of the first part of this book. In Chapters 1 through 9, we discussed the Java language: its syntax and “built-in” features. In the remainder of the book, we will focus mainly on the APIs and libraries that make up the rest of the Java platform. We will see that the real appeal of Java is the combination of this simple language married with powerful tools and standards.
+                <br>
+
+            </p>
+          </section>
+        </article>
+        <nav class="ext-nav">
+          <ul>
+            <li>
+              <a href="#"
+                >Additional Resources
+                <span class="arrow">&#x25BC;</span>
+              </a>
+              <ul class="sub_menu2">
+                <li class="externalmenu">
+                  <a
+                    href="https://docs.oracle.com/javase/tutorial/java/index.html"
+                    target="_blank"
+                    >Click here to learn more</a
+                  >
+                </li>
+                <li class="externalmenu">
+                  <a
+                    href="https://docs.oracle.com/en/java/javase/17/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A"
+                    target="_blank"
+                    >Click to install java</a
+                  >
+                </li>
+                <li class="externalmenu">
+                  <a href="https://www.eclipse.org/downloads/" target="_blank"
+                    >Click to install Eclipse IDE</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <form id="form">
+        <label class="comment" for="comment"> comment</label>
+        <br>
+        <textarea id="userComment" name="comment" rows="10" cols="80">        
+        </textarea>
+        <br>
+        <button class="submit">Submit</button>
+      </form>
+      <ul id="unordered">
+       
+    </ul>
+    </main>
+    <footer>
+        <p> &copy 2022 Musketeers</p>
+    </footer>
+
+    <script src="./js/Contact-Nav.js"></script>
+    <script src="./js/article.js"></script>
+  </body>
+</html>
